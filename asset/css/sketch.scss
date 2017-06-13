@@ -1,0 +1,655 @@
+$font:"HelveticaNeueBold", Helvetica, Arial, sans-serif; 
+$singlebox:#fff;
+
+
+
+.emailContainer{
+	max-width: 1025px;
+
+	.headerContainer{
+		padding-bottom: 80px;
+		background: url(file:///Users/temp/Desktop/Element/BKG.jpg);
+		
+		p{
+			font-family: $font;
+			font-size: 16px;
+			color: $singlebox;
+		}
+		.headerContent{
+			max-width: 315px;
+			.headerLogo{
+				padding-top: 50px;
+				padding-bottom: 15px;
+
+			}
+
+			h1{
+				color: $singlebox;
+				font-size: 32px;
+				font-family: $font;
+			}
+
+			.input_container{
+
+				text-align: center;
+				width: 315px;
+				height: 50px;
+				background-color: #fff;
+				margin-bottom: 10px;
+
+				.inputicon{
+					margin:7px 0px 7px 13px;
+					padding: 9px 10px 9px 0px;
+					border-right: 1px solid #b3b3b3;
+				}
+				.inputicon2{
+					margin:9px 0px 9px 15px;
+					padding:4px 13px 4px 0px;
+					border-right: 1px solid #b3b3b3;
+				}
+
+				input{
+
+					padding-left: 19px;
+					border: 0;
+					width: 241px;
+					height: 48px;
+					font-family: $font;
+					font-size: 18px;
+					color: #666666;
+
+					
+				}
+
+
+				:focus{
+						outline: none;
+					};
+
+				::-webkit-input-placeholder{
+					color: #ccc;
+				}
+
+			}
+
+			.callToActionContainer{
+				width: 315px;
+				height: 50px;
+				background-color: #78BF60;
+				text-align: left;
+
+				.callToActionContent{
+					color: white;
+    				text-decoration: none;
+    				font-family: $font;
+    				font-size: 20px;
+    				padding:12px 25px 13px 60px;
+    				display: inline-block;
+
+
+				}
+
+				img{
+					padding: 13px 14px 12px 0;
+					margin: 0;
+
+
+				}
+    
+
+			}
+		}
+	}
+
+	.learnMore{
+		position: relative;
+		top: -12px;
+
+
+		input {
+			display: none;
+			visibility: hidden;
+		}
+
+		.expand {
+
+			height: 0px;
+			overflow: hidden;
+			transition: height 0.5s;
+			background: url(http://placekitten.com/g/600/300);
+			color: #FFF;
+			
+
+
+		}
+		
+		section {
+			padding: 0 20px;
+		}
+		
+		
+	}
+
+	.midContainer{
+
+		
+		box-sizing: border-box;
+		overflow: auto;
+		
+		
+		padding-bottom: 32px;
+		font-family: $font;
+
+
+		
+		.midLeft{
+			box-sizing: border-box;
+			
+			
+			margin:0;
+			
+			padding-top: 35px;
+			
+		}
+
+		.midContent{
+			
+			max-width: 312px;
+			line-height: 24px;
+			
+			h2{
+				font-size: 40px;
+			}
+			p{
+				font-size: 16px;
+				color: #4D4D4D;
+			}
+
+
+		}
+		.midFunctions{
+			
+			box-sizing: border-box;
+			max-width: 312px;
+			line-height: 15px;
+			text-align: left;
+			padding-top: 26px;
+
+			p{
+				font-size: 14px;
+				color: #4D4D4D;
+				padding-left: 25px;
+
+			}
+			
+
+		}
+		.imageRight{
+			
+			width: 40%;
+			
+		}
+	}
+	.gradientPicture{
+		
+		
+		
+		box-sizing: border-box;
+		display: inline-block;
+		font-family: $font;
+		color: $singlebox;
+
+		
+
+	}
+
+	.reasonContainer{
+		padding-top: 72px;
+		box-sizing: border-box;
+		font-family: $font;
+		h4{
+			font-size: 40px;
+			line-height: 42px;
+			color: #4D4D4D;
+			margin: 0;
+		}
+
+		.p16{
+				font-size: 16px;
+				line-height: 24px;
+				color: #333;
+				max-width: 575px;
+				padding-top: 4px;
+			}
+
+		.reasonContent{
+			display: inline-block;
+			
+			p {
+			
+				max-width: 170px;
+				font-size: 14px;
+				line-height: 16px;
+				color: #808080;
+				strong{
+					color:#78BF60;
+				}
+			}
+
+			
+		}
+		
+
+		
+	}
+
+	.footerContainer{
+		font-family: $font;
+		color: $singlebox;
+		background-color: #78BF60;
+		padding-top: 50px;
+		padding-bottom: 70px;
+		
+		.footerButton{
+			width: 315px;
+			height: 50px;
+			background-color: #fff;
+			text-align: left;
+
+			img{
+					padding: 12px 14px 12px 0;
+					margin: 0;
+
+
+				}
+
+		
+			
+			.footerButtonContent{
+
+				
+				
+				color: #78BF60;
+				font-size: 20px;
+				text-decoration: none;
+				padding:14px 25px 13px 66px;
+    			display: inline-block;
+    			
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 732px) and (max-width: 10000px){
+	
+
+	.gradientPicture{
+		background-image: url(file:///Users/temp/Desktop/Element/GRA.png);
+		background-size: 100% 100%;
+		padding-top: 8%;
+		padding-right: 19.51%;
+		padding-left: 50%;
+		padding-bottom: 5.8%;
+		.p1{
+			line-height: 32px;
+			font-size: 24px;
+		}
+		.p2{
+			line-height: 18px;
+			font-size: 16px;
+			margin: 0;
+		}
+	}
+
+	.learnMore{
+		.expand{
+			width: 600px;
+			
+		}
+		#toggle:checked ~ .expand {
+			height: 300px;
+			width: 600px;
+			
+
+
+		}
+	}
+
+
+
+	.midContainer{
+		padding-top: 83px;
+		padding-right: 42px;
+
+		.midContent{
+			text-align: left;
+		}
+		.midSmallScreen{
+		display: none;
+		float: left;
+	}
+
+		.midLeft{
+			max-width: 60%;
+			padding-left: 19.51%;
+			float: left;
+		}
+
+	
+	.hiddenImage{
+		display: none;
+	}
+	}
+
+	.reasonContainer{
+		.reasonContent{
+			padding:40px 30px;
+		}
+	}
+
+	.footerContainer{
+		p{
+			max-width: 590px;
+			font-size: 20px;
+			line-height: 28px;
+		}
+	}
+}
+
+
+@media only screen and (min-width: 732px) and (max-width: 1000px){
+	.midContainer{
+		padding-top: 83px;
+
+		.midContent{
+			text-align: left;
+		}
+		.midLeft{
+			max-width: 60%;
+			padding-left: 19.51%;
+			float: left;
+		}
+		.phone{
+			width: 35%;
+			padding-top: 100px;
+		}
+
+		
+	}
+
+	.learnMore{
+		.expand{
+			width: 600px;
+			
+
+		}
+		#toggle:checked ~ .expand {
+			height: 300px;
+			width: 600px;
+			
+
+		}
+	}
+
+	.gradientPicture{
+		background-image: url(file:///Users/temp/Desktop/Element/GRA.png);
+		background-size: 100% 100%;
+		padding-top: 8%;
+		padding-right: 19.51%;
+		padding-left: 50%;
+		padding-bottom: 5.8%;
+		.p1{
+			line-height: 32px;
+			font-size: 24px;
+		}
+		.p2{
+			line-height: 18px;
+			font-size: 16px;
+			margin: 0;
+		}
+	}
+
+	.reasonContainer{
+		.reasonContent{
+			padding:40px 30px;
+		}
+	}
+
+	.footerContainer{
+		p{
+			max-width: 590px;
+			font-size: 20px;
+			line-height: 28px;
+		}
+	}
+
+}
+
+@media only screen and (min-width: 495px) and (max-width: 732px){
+
+	.midContainer{
+		padding-top: 0x;
+		display: inline-block;
+		width: 100%;
+
+		.midContent {
+			text-align: center;
+		}
+
+		midLeft{
+			padding-left: 15%;
+			float: left;
+		}
+		
+		.phone{
+			display: none;
+		}
+		.midFunctions{
+			display: none;
+		}
+
+		.midSmallScreen{
+			display: inline-block;
+			overflow: auto;
+			float: left;
+			padding-left: 15%;
+		}
+
+		.hiddenImage{
+			padding-left: 20px;
+		}
+		.functions{
+			width: 200px;
+
+		
+			p{
+				padding-top: 10px;
+				padding-left: 45px;
+				text-align: left;
+			}
+		}
+	}
+
+	.learnMore{
+		
+		.expand{
+			height: 0;
+			width: 400px;
+
+		}
+		#toggle:checked ~ .expand {
+			height: 200px;
+			width: 400px;
+			background-size: contain;
+
+		}
+	}
+
+	.reasonContainer{
+			padding-bottom: 72px;
+			.reasonImage{
+			width: 100px;
+			height: 100px;
+		}
+
+		
+		.reasonContent{
+			padding:20px 8px;
+			max-width: 135px;
+		}
+	
+
+	}
+
+	.gradientPicture{
+		background: url(file:///Users/temp/Desktop/Element/smallgra.png);
+		background-size: 100% 100%;
+		padding-top: 8%;
+		padding-right: 20%;
+		padding-left: 35%;
+		padding-bottom: 5.8%;
+		.p1{
+			line-height: 28px;
+			font-size: 20px;
+		}
+		.p2{
+			line-height: 16px;
+			font-size: 12px;
+			margin: 0;
+		}
+	}
+
+	.footerContainer{
+		p{
+			max-width: 75%;
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+
+}
+
+@media only screen and (max-width: 495px){
+	.headerLogo img{
+		width: 143px;
+
+		}
+
+	.headerContainer{
+
+		padding-bottom: 85px;
+		p{
+			padding-bottom: 50px;
+			margin: 0;
+		}
+	}
+
+	.midContainer{
+		padding-top: 0x;
+		display: inline-block;
+
+		.midContent {
+			text-align: center;
+		}
+		
+		.phone{
+			display: none;
+		}
+		.midFunctions{
+			display: none;
+		}
+
+		.midSmallScreen{
+			display: inline-block;
+			overflow: auto;
+			float: left;
+			padding-left: 10px;
+		}
+
+		.hiddenImage{
+			padding-left: 20px;
+		}
+		.functions{
+			width: 150px;
+
+		
+			p{
+				padding-top: 10px;
+				padding-left: 30px;
+				text-align: left;
+			}
+		}
+	}
+
+	.learnMore{
+		
+		.expand{
+			height: 0;
+			width: 400px;
+
+		}
+		#toggle:checked ~ .expand {
+			height: 200px;
+			width: 400px;
+			background-size: contain;
+
+		}
+	}
+
+	.reasonContainer{
+			padding-bottom: 72px;
+			max-width: 80%;
+			.reasonImage{
+			width: 100px;
+			height: 100px;
+		}
+
+		
+		.reasonContent{
+			padding:10px 8px;
+			
+		}
+	
+
+	}
+
+	.gradientPicture{
+		background: url(file:///Users/temp/Desktop/Element/smallgra.png);
+		background-size: 100% 100%;
+		padding-top: 5%;
+		padding-right: 12%;
+		padding-left: 30%;
+		padding-bottom: 5.8%;
+		.p1{
+			line-height: 20px;
+			font-size: 16px;
+		}
+		.p2{
+			line-height: 16px;
+			font-size: 12px;
+			margin: 0;
+		}
+	}
+
+	.footerContainer{
+		p{
+			max-width: 75%;
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+
+}
+
+
+	
+
+
+	
+
+
+
+
+
+
+
