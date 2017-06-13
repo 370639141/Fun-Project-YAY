@@ -28,4 +28,7 @@ About the website:
 
 3. Adjust the website size to check the responsive design.
 
+4. Shortage found so far:
+  1) Not working well on iphone 5 or smaller screen.
+
 
