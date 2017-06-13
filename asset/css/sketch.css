@@ -2,7 +2,7 @@
   max-width: 1025px; }
   .emailContainer .headerContainer {
     padding-bottom: 80px;
-    background: url(file:///Users/temp/Desktop/Element/BKG.jpg); }
+    background: url(https://raw.githubusercontent.com/370639141/Fun-Project-YAY/master/asset/image/BKG.jpg); }
     .emailContainer .headerContainer p {
       font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif;
       font-size: 16px;
@@ -152,7 +152,7 @@
 
 @media only screen and (min-width: 732px) and (max-width: 10000px) {
   .gradientPicture {
-    background-image: url(file:///Users/temp/Desktop/Element/GRA.png);
+    background-image: url(https://raw.githubusercontent.com/370639141/Fun-Project-YAY/master/asset/image/GRA.png);
     background-size: 100% 100%;
     padding-top: 8%;
     padding-right: 19.51%;
@@ -214,7 +214,7 @@
     width: 600px; }
 
   .gradientPicture {
-    background-image: url(file:///Users/temp/Desktop/Element/GRA.png);
+    background-image: url(https://raw.githubusercontent.com/370639141/Fun-Project-YAY/master/asset/image/GRA.png);
     background-size: 100% 100%;
     padding-top: 8%;
     padding-right: 19.51%;
@@ -281,7 +281,7 @@
       max-width: 135px; }
 
   .gradientPicture {
-    background: url(file:///Users/temp/Desktop/Element/smallgra.png);
+    background: url(https://raw.githubusercontent.com/370639141/Fun-Project-YAY/master/asset/image/smallgra.png);
     background-size: 100% 100%;
     padding-top: 8%;
     padding-right: 20%;
@@ -350,7 +350,7 @@
       padding: 10px 8px; }
 
   .gradientPicture {
-    background: url(file:///Users/temp/Desktop/Element/smallgra.png);
+    background: url(https://raw.githubusercontent.com/370639141/Fun-Project-YAY/master/asset/image/smallgra.png);
     background-size: 100% 100%;
     padding-top: 5%;
     padding-right: 12%;
