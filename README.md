@@ -10,10 +10,10 @@ Sorry for the late submission. I will catch up soon.
 1. Clone the Repo if you want to make changes.
 
 2. Set up SASS
- ⋅⋅* Download Ruby first if you are using a Windows laptop. Mac has Ruby pre-installed.
- ⋅⋅* Open the terminal/Command line and type: gem install sass to install sass.
- ⋅⋅* Open the terminal and go to the folder where contains sketch.scs and sketch.css.
- ⋅⋅* Type in terminal: sass --watch sketch.scss:sketch.css You will get your css file updated everytime you make changes on     your scss file.
+  1. Download Ruby first if you are using a Windows laptop. Mac has Ruby pre-installed.
+  2. Open the terminal/Command line and type: gem install sass to install sass.
+  3. Open the terminal and go to the folder where contains sketch.scs and sketch.css.
+  4. Type in terminal: sass --watch sketch.scss:sketch.css You will get your css file updated everytime you make changes on     your scss file.
   
 3. Use the sublime Text to edit scss file and html
 
