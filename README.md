@@ -5,7 +5,7 @@ Thank you so much Steph, to help me get invovled in MileIq!!
 
 Sorry for the late submission. I will catch up soon.
 
-Alt-H1 Make changes:
+# Make changes:
 
 1. Clone the Repo if you want to make changes.
 
@@ -20,7 +20,7 @@ Alt-H1 Make changes:
 4. Commit the changes and sync
   
   
-About the website:
+# About the website:
 
 1. The buttons has no link where they could forward to.
 
