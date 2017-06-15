@@ -1,154 +1,152 @@
-.emailContainer {
-  max-width: 1025px; }
-  .emailContainer .headerContainer {
-    padding-bottom: 80px;
-    background: url(https://raw.githubusercontent.com/370639141/Fun-Project-YAY/master/asset/image/BKG.jpg); }
-    .emailContainer .headerContainer p {
-      font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif;
-      font-size: 16px;
-      color: #fff; }
-    .emailContainer .headerContainer .headerContent {
-      max-width: 315px; }
-      .emailContainer .headerContainer .headerContent .headerLogo {
-        padding-top: 50px;
-        padding-bottom: 15px; }
-      .emailContainer .headerContainer .headerContent h1 {
-        color: #fff;
-        font-size: 32px;
-        font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif; }
-      .emailContainer .headerContainer .headerContent .input_container {
-        text-align: center;
-        width: 315px;
-        height: 50px;
-        background-color: #fff;
-        margin-bottom: 10px; }
-        .emailContainer .headerContainer .headerContent .input_container .inputicon {
-          margin: 7px 0px 7px 13px;
-          padding: 9px 10px 9px 0px;
-          border-right: 1px solid #b3b3b3; }
-        .emailContainer .headerContainer .headerContent .input_container .inputicon2 {
-          margin: 9px 0px 9px 15px;
-          padding: 4px 13px 4px 0px;
-          border-right: 1px solid #b3b3b3; }
-        .emailContainer .headerContainer .headerContent .input_container input {
-          padding-left: 19px;
-          border: 0;
-          width: 241px;
-          height: 48px;
-          font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif;
-          font-size: 18px;
-          color: #666666; }
-        .emailContainer .headerContainer .headerContent .input_container :focus {
-          outline: none; }
-        .emailContainer .headerContainer .headerContent .input_container ::-webkit-input-placeholder {
-          color: #ccc; }
-      .emailContainer .headerContainer .headerContent .callToActionContainer {
-        width: 315px;
-        height: 50px;
-        background-color: #78BF60;
-        text-align: left; }
-        .emailContainer .headerContainer .headerContent .callToActionContainer .callToActionContent {
-          color: white;
-          text-decoration: none;
-          font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif;
-          font-size: 20px;
-          padding: 12px 25px 13px 60px;
-          display: inline-block; }
-        .emailContainer .headerContainer .headerContent .callToActionContainer img {
-          padding: 13px 14px 12px 0;
-          margin: 0; }
-  .emailContainer .learnMore {
-    position: relative;
-    top: -12px; }
-    .emailContainer .learnMore input {
-      display: none;
-      visibility: hidden; }
-    .emailContainer .learnMore .expand {
-      height: 0px;
-      overflow: hidden;
-      transition: height 0.5s;
-      background: url(http://placekitten.com/g/600/300);
-      color: #FFF; }
-    .emailContainer .learnMore section {
-      padding: 0 20px; }
-  .emailContainer .midContainer {
-    box-sizing: border-box;
-    overflow: auto;
-    padding-bottom: 32px;
-    font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif; }
-    .emailContainer .midContainer .midLeft {
-      box-sizing: border-box;
-      margin: 0;
-      padding-top: 35px; }
-    .emailContainer .midContainer .midContent {
-      max-width: 312px;
-      line-height: 24px; }
-      .emailContainer .midContainer .midContent h2 {
-        font-size: 40px; }
-      .emailContainer .midContainer .midContent p {
-        font-size: 16px;
-        color: #4D4D4D; }
-    .emailContainer .midContainer .midFunctions {
-      box-sizing: border-box;
-      max-width: 312px;
-      line-height: 15px;
-      text-align: left;
-      padding-top: 26px; }
-      .emailContainer .midContainer .midFunctions p {
-        font-size: 14px;
-        color: #4D4D4D;
-        padding-left: 25px; }
-    .emailContainer .midContainer .imageRight {
-      width: 40%; }
-  .emailContainer .gradientPicture {
-    box-sizing: border-box;
-    display: inline-block;
+.emailContainer .headerContainer {
+  padding-bottom: 80px;
+  background: url(https://raw.githubusercontent.com/370639141/Fun-Project-YAY/master/asset/image/BKG.jpg); }
+  .emailContainer .headerContainer p {
     font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif;
+    font-size: 16px;
     color: #fff; }
-  .emailContainer .reasonContainer {
-    padding-top: 72px;
-    box-sizing: border-box;
-    font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif; }
-    .emailContainer .reasonContainer h4 {
-      font-size: 40px;
-      line-height: 42px;
-      color: #4D4D4D;
-      margin: 0; }
-    .emailContainer .reasonContainer .p16 {
-      font-size: 16px;
-      line-height: 24px;
-      color: #333;
-      max-width: 575px;
-      padding-top: 4px; }
-    .emailContainer .reasonContainer .reasonContent {
-      display: inline-block; }
-      .emailContainer .reasonContainer .reasonContent p {
-        max-width: 170px;
-        font-size: 14px;
-        line-height: 16px;
-        color: #808080; }
-        .emailContainer .reasonContainer .reasonContent p strong {
-          color: #78BF60; }
-  .emailContainer .footerContainer {
-    font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif;
-    color: #fff;
-    background-color: #78BF60;
-    padding-top: 50px;
-    padding-bottom: 70px; }
-    .emailContainer .footerContainer .footerButton {
+  .emailContainer .headerContainer .headerContent {
+    max-width: 315px; }
+    .emailContainer .headerContainer .headerContent .headerLogo {
+      padding-top: 50px;
+      padding-bottom: 15px; }
+    .emailContainer .headerContainer .headerContent h1 {
+      color: #fff;
+      font-size: 32px;
+      font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif; }
+    .emailContainer .headerContainer .headerContent .input_container {
+      text-align: center;
       width: 315px;
       height: 50px;
       background-color: #fff;
+      margin-bottom: 10px; }
+      .emailContainer .headerContainer .headerContent .input_container .inputicon {
+        margin: 7px 0px 7px 13px;
+        padding: 9px 10px 9px 0px;
+        border-right: 1px solid #b3b3b3; }
+      .emailContainer .headerContainer .headerContent .input_container .inputicon2 {
+        margin: 9px 0px 9px 15px;
+        padding: 4px 13px 4px 0px;
+        border-right: 1px solid #b3b3b3; }
+      .emailContainer .headerContainer .headerContent .input_container input {
+        padding-left: 19px;
+        border: 0;
+        width: 241px;
+        height: 48px;
+        font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        color: #666666; }
+      .emailContainer .headerContainer .headerContent .input_container :focus {
+        outline: none; }
+      .emailContainer .headerContainer .headerContent .input_container ::-webkit-input-placeholder {
+        color: #ccc; }
+    .emailContainer .headerContainer .headerContent .callToActionContainer {
+      width: 315px;
+      height: 50px;
+      background-color: #78BF60;
       text-align: left; }
-      .emailContainer .footerContainer .footerButton img {
-        padding: 12px 14px 12px 0;
-        margin: 0; }
-      .emailContainer .footerContainer .footerButton .footerButtonContent {
-        color: #78BF60;
-        font-size: 20px;
+      .emailContainer .headerContainer .headerContent .callToActionContainer .callToActionContent {
+        color: white;
         text-decoration: none;
-        padding: 14px 25px 13px 66px;
+        font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        padding: 12px 25px 13px 60px;
         display: inline-block; }
+      .emailContainer .headerContainer .headerContent .callToActionContainer img {
+        padding: 13px 14px 12px 0;
+        margin: 0; }
+.emailContainer .learnMore {
+  position: relative;
+  top: -12px; }
+  .emailContainer .learnMore input {
+    display: none;
+    visibility: hidden; }
+  .emailContainer .learnMore .expand {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+    background: url(http://placekitten.com/g/600/300);
+    color: #FFF; }
+  .emailContainer .learnMore section {
+    padding: 0 20px; }
+.emailContainer .midContainer {
+  box-sizing: border-box;
+  overflow: auto;
+  padding-bottom: 32px;
+  font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif; }
+  .emailContainer .midContainer .midLeft {
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 35px; }
+  .emailContainer .midContainer .midContent {
+    max-width: 312px;
+    line-height: 24px; }
+    .emailContainer .midContainer .midContent h2 {
+      font-size: 40px; }
+    .emailContainer .midContainer .midContent p {
+      font-size: 16px;
+      color: #4D4D4D; }
+  .emailContainer .midContainer .midFunctions {
+    box-sizing: border-box;
+    max-width: 312px;
+    line-height: 15px;
+    text-align: left;
+    padding-top: 26px; }
+    .emailContainer .midContainer .midFunctions p {
+      font-size: 14px;
+      color: #4D4D4D;
+      padding-left: 25px; }
+  .emailContainer .midContainer .imageRight {
+    width: 40%; }
+.emailContainer .gradientPicture {
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif;
+  color: #fff; }
+.emailContainer .reasonContainer {
+  padding-top: 72px;
+  box-sizing: border-box;
+  font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif; }
+  .emailContainer .reasonContainer h4 {
+    font-size: 40px;
+    line-height: 42px;
+    color: #4D4D4D;
+    margin: 0; }
+  .emailContainer .reasonContainer .p16 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    max-width: 575px;
+    padding-top: 4px; }
+  .emailContainer .reasonContainer .reasonContent {
+    display: inline-block; }
+    .emailContainer .reasonContainer .reasonContent p {
+      max-width: 170px;
+      font-size: 14px;
+      line-height: 16px;
+      color: #808080; }
+      .emailContainer .reasonContainer .reasonContent p strong {
+        color: #78BF60; }
+.emailContainer .footerContainer {
+  font-family: "HelveticaNeueBold", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-color: #78BF60;
+  padding-top: 50px;
+  padding-bottom: 70px; }
+  .emailContainer .footerContainer .footerButton {
+    width: 315px;
+    height: 50px;
+    background-color: #fff;
+    text-align: left; }
+    .emailContainer .footerContainer .footerButton img {
+      padding: 12px 14px 12px 0;
+      margin: 0; }
+    .emailContainer .footerContainer .footerButton .footerButtonContent {
+      color: #78BF60;
+      font-size: 20px;
+      text-decoration: none;
+      padding: 14px 25px 13px 66px;
+      display: inline-block; }
 
 @media only screen and (min-width: 732px) and (max-width: 10000px) {
   .gradientPicture {
